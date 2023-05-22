@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+//All Route for Assignment 14
 Route::post('/user', [RequestController::class, 'getName']);
 Route::get('/user-agent', [RequestController::class, 'userAgent']);
 Route::get('/page', [RequestController::class, 'getPage']);
